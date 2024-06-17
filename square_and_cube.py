@@ -6,4 +6,4 @@ given_number = 0.6
 square_number, cube_number = calculate_square_and_cube(given_number)
 
 print("Square Number:", square_number)
-print("Cube Number:", cube_number)
+print("Cube Number:",cube_number)

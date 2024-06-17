@@ -1,7 +1,7 @@
 def calculate_simple_interest(principal, time, gender, is_senior):
-    senior_citizen_rate = 0.15  # 15%
-    female_rate = 0.12  # 12%
-    default_rate = 0.10  # 10%
+    senior_citizen_rate = 0.15  
+    female_rate = 0.12  
+    default_rate = 0.10  
     if is_senior.lower() == 'y':
         rate = senior_citizen_rate
     elif gender.lower() == 'f':

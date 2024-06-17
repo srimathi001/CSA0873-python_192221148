@@ -4,10 +4,8 @@ def is_perfect_number(n):
         if n % i == 0:
             sum_divisors += i
     return sum_divisors == n
-number = 6
+number = int(input("enter a number:"))
 if is_perfect_number(number):
-    print(f"Given Number: {number}")
     print("It's a Perfect Number")
 else:
-    print(f"Given Number: {number}")
     print("It's not a Perfect Number")

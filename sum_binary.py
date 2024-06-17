@@ -1,6 +1,7 @@
 def add_binary(a, b):
     int_a = int(a, 2)
-    int_b = int(b, 2)
+    int_b = int(b,2)
+    print(int_a,int_b)
     sum_int = int_a + int_b
     return bin(sum_int)[2:]
 def main():
